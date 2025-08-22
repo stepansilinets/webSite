@@ -39,3 +39,10 @@
   padding-top: 40px;
 }
 }
+
+
+@media (max-width: 800px) {
+  .concact {
+    padding-bottom: 10px;
+  }
+}
