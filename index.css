@@ -1,0 +1,141 @@
+
+* { 
+    box-sizing: border-box; 
+}
+
+html, body { 
+    height: 100%; 
+    
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  /* font-family: "Intel One Mono", monospace;  */
+}
+
+
+.title { 
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 30px;
+    font-weight: 600; 
+    margin: 0; 
+}
+
+.name-container-work,
+.name-container-about,
+.name-container-skills { 
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 18px; 
+    font-weight: 400; 
+}
+.second-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .page {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0 0 7%;
+ }
+.second-container { 
+    margin-top: 0;
+}
+
+
+.about-list {
+  font-family: "Intel One Mono", monospace;
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* display: grid; */
+  max-width: 70ch;
+}
+
+
+/* Skills / Works */
+.works, .skills-list {
+  font-family: "Intel One Mono", monospace;
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-list li, .works li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.page { 
+    flex: 1; 
+
+}
+
+
+/* footer */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* padding: 16px 8%; */
+  margin-top: auto;
+  /* margin-bottom: 1.5%; */
+}
+.link-footer {
+  font-family: "Mozilla Text", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: black;
+  text-decoration: none;
+  transition: color .2s;
+}
+.link-footer:hover { color: #e00; }
+.link-footer:focus-visible {
+  outline: 2px dashed #e00;
+  outline-offset: 3px;
+}
+
+
+/* функционал */
+.work-item {
+  cursor: pointer;
+  transition: color 0.2s ease;
+  color: red;
+  max-width: 60ch;
+}
+/* color: #0073e6; */
+.work-item:hover {
+  color: black;
+}
+
+.work-info {
+  margin-right: 28px;
+  margin-top: 20px;
+  padding-top: 15px;
+  /* padding: 15px; */
+  border-top: 1px solid black;
+  color: black;
+  font-family: "Intel One Mono", monospace;
+  font-size: 14px;
+  display: block !important;          /* скрыт по умолчанию */
+  animation: fadeIn 0.3s ease forwards;
+  max-width: 60ch;
+}
+
+
+.work-item.is-active,
+.work-item.is-active:hover,
+.work-item.is-active:focus {
+  color: black;
+}
+
+/* анимация появления */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

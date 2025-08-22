@@ -1,0 +1,41 @@
+@media (max-width: 500px) {
+   .title {
+    font-size: 18px;
+   }
+   .link-footer {
+    font-size: 18px;
+   }
+   .page {
+    display: grid;
+   }
+   .work-info {
+    display: block;
+   }
+   .work-item.is-active { 
+    /* outline: 2px solid black; */
+    margin-right: 28px;
+    /* border-bottom: 1px solid black;
+    border-top: 1px solid black; */
+    border-right: 1px solid black;
+    margin-left: 5px;
+  }
+  .name-container-work,
+    .name-container-about,
+  .name-container-skills { 
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 18px; 
+    font-weight: 400; 
+    color: red;
+}
+    .name-container-about,
+    .name-container-skills {
+      padding-top: 20px;
+    }
+
+.skills-list {
+  font-size: 2px;
+}
+.contact {
+  padding-top: 40px;
+}
+}
