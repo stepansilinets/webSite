@@ -12,10 +12,7 @@
     display: block;
    }
    .work-item.is-active { 
-    /* outline: 2px solid black; */
     margin-right: 28px;
-    /* border-bottom: 1px solid black;
-    border-top: 1px solid black; */
     border-right: 1px solid black;
     margin-left: 5px;
   }

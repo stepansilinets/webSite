@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   background: white;
-  /* font-family: "Intel One Mono", monospace;  */
 }
 
 
@@ -53,12 +52,9 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  /* display: grid; */
   max-width: 70ch;
 }
 
-
-/* Skills / Works */
 .works, .skills-list {
   font-family: "Intel One Mono", monospace;
   font-size: 14px;
@@ -117,16 +113,20 @@ body {
   margin-right: 28px;
   margin-top: 20px;
   padding-top: 15px;
-  /* padding: 15px; */
   border-top: 1px solid black;
   color: black;
   font-family: "Intel One Mono", monospace;
   font-size: 14px;
-  display: block !important;          /* скрыт по умолчанию */
-  animation: fadeIn 0.3s ease forwards;
+  display: block !important;          
+   opacity: 0;
+  transform: translateY(10px);
+  transition: opacity .3s ease, transform .3s ease;
   max-width: 60ch;
 }
-
+.work-info.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .work-item.is-active,
 .work-item.is-active:hover,
@@ -134,7 +134,7 @@ body {
   color: black;
 }
 
-/* анимация появления */
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
