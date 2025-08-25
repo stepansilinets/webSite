@@ -1,4 +1,3 @@
-
 * { 
     box-sizing: border-box; 
 }
@@ -30,6 +29,7 @@ body {
     font-family: "Mozilla Text", sans-serif;
     font-size: 18px; 
     font-weight: 400; 
+    color: red;
 }
 .second-container {
     display: flex;
@@ -44,8 +44,6 @@ body {
 .second-container { 
     margin-top: 0;
 }
-
-
 .about-list {
   font-family: "Intel One Mono", monospace;
   font-size: 14px;
@@ -54,7 +52,6 @@ body {
   margin: 0;
   max-width: 70ch;
 }
-
 .works, .skills-list {
   font-family: "Intel One Mono", monospace;
   font-size: 14px;
@@ -71,16 +68,12 @@ body {
     flex: 1; 
 
 }
-
-
 /* footer */
 .contact {
   display: flex;
   justify-content: center;
   gap: 30px;
-  /* padding: 16px 8%; */
   margin-top: auto;
-  /* margin-bottom: 1.5%; */
 }
 .link-footer {
   font-family: "Mozilla Text", sans-serif;
