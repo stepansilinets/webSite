@@ -114,7 +114,7 @@ body {
    opacity: 0;
   transform: translateY(10px);
   transition: opacity .3s ease, transform .3s ease;
-  width: 60ch;
+  max-width: 60ch;
 }
 .work-info.show {
   opacity: 1;
