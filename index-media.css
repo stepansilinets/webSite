@@ -10,12 +10,13 @@
    }
    .work-info {
     display: block;
+    max-width: 60ch;
    }
-   .work-item.is-active { 
+   /* .work-item.is-active { 
     margin-right: 28px;
     border-right: 1px solid black;
     margin-left: 5px;
-  }
+  } */
   .name-container-work,
     .name-container-about,
   .name-container-skills { 
@@ -35,4 +36,11 @@
 .contact {
   padding-top: 40px;
 }
+}
+
+
+@media (min-width: 900px) {
+  .work-info {
+    width: 60ch;
+  }
 }
