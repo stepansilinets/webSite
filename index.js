@@ -22,7 +22,7 @@ show(workItems[0]);
 
 
 workItems.forEach(item => {
-  item.addEventListener("mouseenter", () => show(item));
+  // item.addEventListener("mouseenter", () => show(item));
   item.addEventListener("click", () => show(item));
   item.addEventListener("focus", () => show(item));
 });
