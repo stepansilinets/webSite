@@ -94,12 +94,12 @@ body {
 .work-item {
   cursor: pointer;
   transition: color 0.2s ease;
-  color: red;
+  color: black;
   max-width: 60ch;
 }
 /* color: #0073e6; */
 .work-item:hover {
-  color: black;
+  color: red;
 }
 
 .work-info {
@@ -124,7 +124,7 @@ body {
 .work-item.is-active,
 .work-item.is-active:hover,
 .work-item.is-active:focus {
-  color: black;
+  color: red;
 }
 
 
