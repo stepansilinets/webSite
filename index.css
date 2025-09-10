@@ -17,7 +17,7 @@ body {
 
 
 .title { 
-    font-family: 'TypewriterB';
+    font-family: 'TypewriterR';
     font-size: 30px;
     font-weight: 400; 
     margin: 0; 
@@ -76,7 +76,7 @@ body {
   margin-top: auto;
 }
 .link-footer {
-  font-family: 'TypewriterB';
+  font-family: 'TypewriterR';
   font-weight: 600;
   font-size: 26px;
   color: black;
