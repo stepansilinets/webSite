@@ -1,0 +1,15 @@
+/* Regular */
+@font-face {
+  font-family: 'TypewriterR';
+  src: url('UMTypewriter_1/UMTypewriter-Regular.otf') format('truetype');
+  
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'TypewriterB';
+  src: url('UMTypewriter_1/UMTypewriter-Bold.otf') format('truetype');
+  
+  font-style: normal;
+}
