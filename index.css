@@ -17,18 +17,21 @@ body {
 
 
 .title { 
-    font-family: 'TypewriterR';
+    font-family: "Playpen Sans", cursive;
+
+    font-weight: 600;
+    font-style: normal;
     font-size: 30px;
-    font-weight: 400; 
     margin: 0; 
 }
 
 .name-container-work,
 .name-container-about,
 .name-container-skills { 
-    font-family: 'TypewriterR';
-    font-size: 18px; 
-    font-weight: 400; 
+    font-family: "Playpen Sans", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
     color: red;
 }
 .second-container {
@@ -45,7 +48,9 @@ body {
     margin-top: 0;
 }
 .about-list {
-  font-family: 'TypewriterR';
+  font-family: "Playpen Sans", cursive;
+  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   list-style: none;
   padding: 0;
@@ -53,7 +58,7 @@ body {
   max-width: 70ch;
 }
 .works, .skills-list {
-  font-family: 'TypewriterR';
+  font-family: "Playpen Sans", cursive;
   font-size: 14px;
   list-style: none;
   padding: 0;
@@ -76,7 +81,7 @@ body {
   margin-top: auto;
 }
 .link-footer {
-  font-family: 'TypewriterR';
+  font-family: "Playpen Sans", cursive; 
   font-weight: 600;
   font-size: 26px;
   color: black;
@@ -108,7 +113,7 @@ body {
   padding-top: 15px;
   border-top: 1px solid black;
   color: black;
-  font-family: 'TypewriterR';
+  font-family: "Playpen Sans", cursive; 
   font-size: 14px;
   display: block !important;          
    opacity: 0;
