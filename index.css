@@ -17,9 +17,10 @@ body {
 
 
 .title { 
-    font-family: "Playpen Sans", cursive;
+    font-family: "Roboto Mono", monospace;
 
-    font-weight: 600;
+
+    font-weight: 500;
     font-style: normal;
     font-size: 30px;
     margin: 0; 
@@ -28,7 +29,8 @@ body {
 .name-container-work,
 .name-container-about,
 .name-container-skills { 
-    font-family: "Playpen Sans", cursive;
+    font-family: "Roboto Mono", monospace;
+
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -48,7 +50,8 @@ body {
     margin-top: 0;
 }
 .about-list {
-  font-family: "Playpen Sans", cursive;
+  font-family: "Roboto Mono", monospace;
+
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -58,7 +61,8 @@ body {
   max-width: 70ch;
 }
 .works, .skills-list {
-  font-family: "Playpen Sans", cursive;
+  font-family: "Roboto Mono", monospace;
+
   font-size: 14px;
   list-style: none;
   padding: 0;
@@ -81,7 +85,8 @@ body {
   margin-top: auto;
 }
 .link-footer {
-  font-family: "Playpen Sans", cursive; 
+  font-family: "Roboto Mono", monospace;
+
   font-weight: 600;
   font-size: 26px;
   color: black;
@@ -113,7 +118,7 @@ body {
   padding-top: 15px;
   border-top: 1px solid black;
   color: black;
-  font-family: "Playpen Sans", cursive; 
+  font-family: "Roboto Mono", monospace;
   font-size: 14px;
   display: block !important;          
    opacity: 0;
