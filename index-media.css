@@ -44,3 +44,10 @@
     width: 60ch;
   }
 }
+
+
+@media (min-width: 1100px) {
+  .first-container {
+    margin-left: -4%;
+  }
+}

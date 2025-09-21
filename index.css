@@ -41,19 +41,26 @@ body {
     font-size: 18px;
     color: red;
 }
+.first-container {
+  /* margin-left: -7.4%; */
+  /* margin-left: -4%; */
+}
 .second-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 0;
 }
-
+.about {
+  margin-right: 3%;
+}
  .page {
     display: flex;
     justify-content: space-between;
     margin: 3% 0 0 7%;
  }
-.second-container { 
+/* .second-container { 
     margin-top: 0;
-}
+} */
 .about-list {
   font-family: "Roboto Mono", monospace;
 
