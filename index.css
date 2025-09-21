@@ -18,14 +18,19 @@ body {
 
 .title { 
     font-family: "Roboto Mono", monospace;
-
-
     font-weight: 500;
     font-style: normal;
     font-size: 30px;
     margin: 0; 
+    transition: color .2s;
 }
-
+.title:hover {
+  color: red;
+}
+.title:focus-visible {
+  outline: 2px dashed #e00;
+  outline-offset: 3px;
+}
 .name-container-work,
 .name-container-about,
 .name-container-skills { 
@@ -93,7 +98,9 @@ body {
   text-decoration: none;
   transition: color .2s;
 }
-.link-footer:hover { color: #e00; }
+.link-footer:hover { 
+  color: #e00; 
+}
 .link-footer:focus-visible {
   outline: 2px dashed #e00;
   outline-offset: 3px;
