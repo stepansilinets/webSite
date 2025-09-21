@@ -41,10 +41,7 @@ body {
     font-size: 18px;
     color: red;
 }
-.first-container {
-  /* margin-left: -7.4%; */
-  /* margin-left: -4%; */
-}
+
 .second-container {
     display: flex;
     justify-content: space-between;
