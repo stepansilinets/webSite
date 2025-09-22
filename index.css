@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: white;
+  background: rgb(0, 0, 0);
 }
 
 
@@ -23,9 +23,10 @@ body {
     font-size: 30px;
     margin: 0; 
     transition: color .2s;
+    color: white;
 }
 .title:hover {
-  color: red;
+  color: #007AFF;
 }
 .title:focus-visible {
   outline: 2px dashed #e00;
@@ -39,7 +40,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    color: red;
+    color: #007AFF;
 }
 
 .second-container {
@@ -60,7 +61,7 @@ body {
 } */
 .about-list {
   font-family: "Roboto Mono", monospace;
-
+  color: white;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -69,9 +70,10 @@ body {
   margin: 0;
   max-width: 70ch;
 }
-.works, .skills-list {
+.works, 
+.skills-list {
   font-family: "Roboto Mono", monospace;
-
+  color: white;
   font-size: 14px;
   list-style: none;
   padding: 0;
@@ -80,6 +82,7 @@ body {
 .skills-list li, .works li {
   font-size: 14px;
   line-height: 1.6;
+  color: white;
 }
 
 .page { 
@@ -101,9 +104,10 @@ body {
   color: black;
   text-decoration: none;
   transition: color .2s;
+  color: white;
 }
 .link-footer:hover { 
-  color: #e00; 
+  color: #007AFF; 
 }
 .link-footer:focus-visible {
   outline: 2px dashed #e00;
@@ -112,22 +116,25 @@ body {
 
 
 /* функционал */
+.work-item[data-info] {
+  color: white;
+}
 .work-item {
   cursor: pointer;
   transition: color 0.2s ease;
-  color: black;
+  color: white;
   max-width: 60ch;
 }
 /* color: #0073e6; */
 .work-item:hover {
-  color: red;
+  color: #007AFF;
 }
 
 .work-info {
   margin-right: 28px;
   margin-top: 20px;
   padding-top: 15px;
-  border-top: 1px solid black;
+  border-top: 1px solid #007AFF;
   color: black;
   font-family: "Roboto Mono", monospace;
   font-size: 14px;
@@ -145,13 +152,13 @@ body {
 .work-item.is-active,
 .work-item.is-active:hover,
 .work-item.is-active:focus {
-  color: red;
+  color: #007AFF;
 }
 
 
    .work-item.is-active { 
     margin-right: 28px;
-    border-right: 1px solid black;
+    border-right: 1px solid #007AFF;
     margin-left: 5px;
   }
   

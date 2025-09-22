@@ -13,6 +13,7 @@ const show = (item) => {
 
   setTimeout(() => {
     infoBlock.innerHTML = toSafeHtml(item.dataset.info || "");
+    infoBlock.style.color = "white";
     requestAnimationFrame(() => infoBlock.classList.add("show"));
   }, 300); 
 };
